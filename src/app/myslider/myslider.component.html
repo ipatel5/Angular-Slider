@@ -1,0 +1,20 @@
+<!-- <input type="range" [min]="min" [max]="max" [step]="step"  [(ngModel)]="val" (ngModelChange)="setRam($event)"> -->
+
+<div class="slider" 
+[style.width.px]="width">
+    
+</div>
+
+
+<div class="circle" [style.margin-left.px]="nameformargin"
+ *ngFor="let i of noofcircles" (click)="sendvalue(i)" >
+
+<div id="top">
+    {{i}}
+</div>
+
+</div>
+
+
+<br>
+<br>

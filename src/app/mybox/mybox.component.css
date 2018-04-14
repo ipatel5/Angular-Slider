@@ -1,0 +1,9 @@
+.box{
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    text-align: center;
+}
+my-slider{
+    display: inline-block;
+}
